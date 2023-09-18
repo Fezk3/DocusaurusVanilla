@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'http://localhost:3000/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -46,27 +46,27 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       typesense: {
         // Replace this with the name of your index/collection.
         // It should match the "index_name" entry in the scraper's "config.json" file.
-        typesenseCollectionName: 'docusaurus-2',
+        typesenseCollectionName: 'docu',
   
         typesenseServerConfig: {
           nodes: [
             {
-              host: 'xxx-1.a1.typesense.net',
+              host: 's8iynf57ath9g0c4p-1.a1.typesense.net',
               port: 443,
               protocol: 'https',
             },
             {
-              host: 'xxx-2.a1.typesense.net',
+              host: 's8iynf57ath9g0c4p-1.a1.typesense.net',
               port: 443,
               protocol: 'https',
             },
             {
-              host: 'xxx-3.a1.typesense.net',
+              host: 's8iynf57ath9g0c4p-1.a1.typesense.net',
               port: 443,
               protocol: 'https',
             },
           ],
-          apiKey: 'xyz',
+          apiKey: 'qDnqOUrG5Xa9zn8NsG8ThEviHnTToTq1',
         },
   
         // Optional: Typesense search parameters: https://typesense.org/docs/0.24.0/api/search.html#search-parameters

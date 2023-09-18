@@ -1,0 +1,2 @@
+{"title": "Tuto", "content": "Tutotial para pros", "url": "http://localhost:3000/docs/intro", "ordering_field": "1"}
+{"title": "Blog", "content": "Blog para pros", "url": "http://localhost:3000/blog", "ordering_field": "2"}
